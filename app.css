@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato&family=Oswald&family=Outfit&family=Spectral&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: hsl(216, 50%, 16%);
+  height: 550px;
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 0px 3px 5px rgba(0, 0, 0, 0.37);
+}
+
+.container:hover {
+  box-shadow: 2px 0px 3px 5px rgba(0, 0, 0, 0.54);
+}
+
+#nftPic {
+  display: flex;
+  align-self: center;
+  height: 300px;
+  width: 325px;
+  border-radius: 10px;
+}
+
+.nftName {
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.nftDesc {
+  margin-left: 15px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.nftStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nftStats div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  margin-left: 15px;
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.price img {
+  margin-right: 7px;
+}
+
+.daysLeft {
+  color: hsl(215, 51%, 70%);
+  align-self: flex-end;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.daysLeft img {
+  margin-right: 5px;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  width: 95%;
+}
+
+.Jules {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.jules1 {
+  margin-left: 20px;
+}
+
+.createdBy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+
+.white {
+  color: white;
+  font-weight: 300;
+}
+
+.attribution {
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(178, 100%, 50%);
+}
